@@ -21,8 +21,6 @@
             <a href="#" class="botao2">Ver conhecimentos</a>
         </div>
     </section>
-</body>
-</html>
 <section id="secao-projeto">
     <ul>
         <li>
@@ -57,3 +55,32 @@
         </li>
     </ul>
 </section>
+
+<section id="secao-orcamento">
+    <form action="">
+        <h3>Orçamento</h3>
+        <label for="paginas">Quantidade de Páginas: </label>
+        <input type="number" id="paginas" min="1" value="1">
+
+        <label for="js">Precisa de JS?</label>
+        <input type="checkbox" id="js">
+
+        <label for="layout">Precisa de Layout? </label>
+        <div>
+            <input type="radio" id="layout_sim" name="layout">
+            <label for="layout_sim">Sim, preciso de layout</label>
+
+            <input type="radio" id="layout_nao" name="layout">
+            <label for="layout_nao">Não, já tenho</label>
+        </div>
+
+        <label for="prazo">Prazo</label>
+        <input type="range" id="prazo">
+
+        <output>R$0,00</output>
+    </form>
+</section>
+
+</body>
+
+</html>
