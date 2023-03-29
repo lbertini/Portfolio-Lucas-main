@@ -78,7 +78,8 @@ img{
 section{
     padding-top: 2rem;
     display: flex;
-    padding-left: 8.6rem
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 }
 
 
@@ -124,6 +125,7 @@ section{
 
 .avatar{
     border-radius: 50%;
+    margin-left: 8.6rem;
 }
 
 #texto-apresentacao{
