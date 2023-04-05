@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
 <body>
     <header>
@@ -74,13 +75,13 @@
             <label for="layout_nao">Não, já tenho</label>
         </div>
 
-        <label for="prazo">Prazo</label>
-        <input type="range" id="prazo">
+        <label for="prazo" id="label_prazo">Prazo</label>
+        <input type="range" id="prazo" min="1" max="10">
 
-        <output>R$0,00</output>
+        <output id="preco">R$0,00</output>
     </form>
 </section>
-
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
