@@ -290,3 +290,14 @@ section{
     border: none;
     border-radius: .5rem;
   }
+  @media (max-width: 900px) {
+    #secao-projetos ul{
+        flex-direction: column;
+    }
+    .large-only{
+        display: none;
+    }
+    #secao-orcamento form{
+        grid-template-columns: 1fr;
+    }
+}
